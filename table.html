@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulky v HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <h2>Slavná osobnost: Josef Někdo</h2>
+        <table border=1>
+            <caption>Vizitka slavné osobnosti</caption>
+            <thead>
+                <tr>
+                    <th>Portrét</th>
+                    <th colspan="2">Základní údaje</th>
+                    <th>Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/vladislav-vancura.jpg" height="200" alt="Vladislav Vančura"></td>
+                    <td colspan="2">Jméno a příjmení</td>
+                    <td rowspan="4">Díla</td>
+                </tr>
+                <tr>
+                    <td>Narození</td>
+                    <td>Úmrtí</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">Stručná charakteristika</td>
+                </tr>
+                <tr>
+                    <td>Popisek fotky</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Odkaz na wikipedii</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
